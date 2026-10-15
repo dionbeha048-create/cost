@@ -1,0 +1,81 @@
+/* Faqja: sfond i errët, tekst i bardhë, kutia në mes */
+body {
+  background: #0B0F19;
+  color: #F1F5F9;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+/* Kutia kryesore */
+.kutia {
+  background: #121826;
+  width: 100%;
+  max-width: 420px;
+  padding: 24px;
+  border: 1px solid #8B5CF6;
+  border-radius: 16px;
+}
+
+/* Titulli vjollcë */
+h1 {
+  color: #8B5CF6;
+  text-align: center;
+}
+
+/* Totali jeshil */
+.total {
+  color: #34D399;
+  font-size: 22px;
+  text-align: center;
+}
+
+/* Fushat e shkrimit */
+input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #1A2233;
+  color: #F1F5F9;
+  border: 1px solid #3B82F6;
+  border-radius: 8px;
+}
+
+/* Butonat */
+button {
+  width: 100%;
+  padding: 10px;
+  background: #8B5CF6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+button:hover {
+  background: #3B82F6;
+}
+
+/* Lista */
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1A2233;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+/* Butoni "Fshi" është më i vogël */
+.fshi {
+  width: auto;
+  padding: 5px 12px;
+  background: #FB7185;
+}

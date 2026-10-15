@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8">
+  <title>Shpenzimet</title>
+  <!-- Lidhim skedarin e stilit -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="kutia">
+    <h1>Gjurmuesi i Shpenzimeve</h1>
+
+    <!-- Këtu JavaScript shkruan totalin -->
+    <p class="total">Totali: <span id="totali">0</span> €</p>
+
+    <!-- Fushat ku shkruan përdoruesi -->
+    <input id="emri" type="text" placeholder="Emri i shpenzimit">
+    <input id="shuma" type="number" placeholder="Shuma (€)">
+    <button onclick="shtoShpenzim()">Shto</button>
+
+    <!-- Këtu JavaScript shfaq listën -->
+    <ul id="lista"></ul>
+  </div>
+
+  <!-- Lidhim skedarin e JavaScript (gjithmonë në fund) -->
+  <script src="script.js"></script>
+</body>
+</html>
